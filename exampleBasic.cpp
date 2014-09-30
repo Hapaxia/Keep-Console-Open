@@ -1,5 +1,5 @@
 /*
-KeepConsoleOpen example
+KeepConsoleOpenBasic example
 by Hapax (github.com/hapaxia)
 July 2014
 
@@ -8,11 +8,11 @@ If you change the "zero = 1;" to "zero = 0;", "Perfectly zero." is output to the
 */
 
 #include <iostream>
-#include "KeepConsoleOpen.h"
+#include "KeepConsoleOpenBasic.hpp"
 
 main()
 {
-	KeepConsoleOpen keepConsoleOpen;
+	DEV::KeepConsoleOpen keepConsoleOpen;
 
 	int zero = 1;
 	if (zero == 0)
