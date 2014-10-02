@@ -1,8 +1,6 @@
 #ifndef DEV_KEEPCONSOLEOPENSFML_HPP
 #define DEV_KEEPCONSOLEOPENSFML_HPP
 
-// http:://github.com/hapaxia
-
 #include <iostream>
 #include <SFML\Window\Keyboard.hpp>
 
@@ -23,12 +21,12 @@ public:
 
 #ifdef ENTER_KEY_TO_CLOSE_CONSOLE
 			// enter to close
-			std::cout << std::endl << "Press Enter to close the console." << std::endl;
+			std::cout << std::endl << "Press Enter to close the console." << std::flush;
 			while (!sf::Keyboard::isKeyPressed(sf::Keyboard::Return))
 			{ }
 #else
 			// any key to close
-			std::cout << std::endl << "Press any key to close the console." << std::endl;
+			std::cout << std::endl << "Press any key to close the console." << std::flush;
 			while (!isAnyKeyPressed())
 			{ }
 #endif // ENTER_KEY_TO_CLOSE_CONSOLE
