@@ -1,6 +1,8 @@
 #ifndef DEV_KEEPCONSOLEOPENSFML_HPP
 #define DEV_KEEPCONSOLEOPENSFML_HPP
 
+// http:://github.com/hapaxia
+
 #include <iostream>
 #include <SFML\Window\Keyboard.hpp>
 

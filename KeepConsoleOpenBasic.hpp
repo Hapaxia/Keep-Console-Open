@@ -1,6 +1,8 @@
 #ifndef DEV_KEEPCONSOLEOPENBASIC_HPP
 #define DEV_KEEPCONSOLEOPENBASIC_HPP
 
+// http:://github.com/hapaxia
+
 #include <iostream>
 
 namespace DEV
